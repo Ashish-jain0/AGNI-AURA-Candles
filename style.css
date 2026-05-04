@@ -638,15 +638,16 @@ footer {
 .team-profile {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
 }
 
 .team-profile img {
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     object-fit: cover;
-    border: 2px solid var(--primary-color);
+    border: 3px solid var(--primary-color);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
 .profile-info {
@@ -655,14 +656,14 @@ footer {
 }
 
 .profile-name {
-    font-size: 1.05rem;
+    font-size: 1.15rem;
     color: var(--text-main);
     font-weight: 600;
     line-height: 1.2;
 }
 
 .profile-role {
-    font-size: 0.85rem;
+    font-size: 0.95rem;
     color: var(--primary-color);
     font-style: italic;
     font-family: var(--font-heading);
