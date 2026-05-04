@@ -150,9 +150,12 @@ h2 {
     gap: 5px;
 }
 
-.logo-agni { color: var(--text-main); }
-.logo-amp { color: var(--primary-color); font-style: italic; }
-.logo-aura { color: var(--text-main); }
+.logo-agni { color: #ffffff; transition: var(--transition); }
+.logo-amp { color: var(--primary-color); font-style: italic; transition: var(--transition); }
+.logo-aura { color: #ffffff; transition: var(--transition); }
+
+.navbar.scrolled .logo-agni,
+.navbar.scrolled .logo-aura { color: var(--text-main); }
 
 .nav-links {
     display: flex;
@@ -162,14 +165,22 @@ h2 {
 
 .nav-links a {
     text-decoration: none;
-    color: var(--text-main);
+    color: #ffffff;
     font-size: 0.95rem;
     transition: var(--transition);
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
+.navbar.scrolled .nav-links a {
+    color: var(--text-main);
+}
+
 .nav-links a:not(.btn-primary):hover {
+    color: var(--primary-color);
+}
+
+.navbar.scrolled .nav-links a:not(.btn-primary):hover {
     color: var(--primary-color);
 }
 
