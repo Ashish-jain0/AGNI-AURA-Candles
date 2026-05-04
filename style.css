@@ -635,10 +635,10 @@ footer {
 }
 
 .team-titles span {
-    font-size: 0.85rem;
-    color: var(--primary-color);
-    font-family: var(--font-heading);
-    font-style: italic;
+    font-size: 1.05rem;
+    color: var(--text-main);
+    font-family: var(--font-body);
+    font-weight: 500;
 }
 
 .footer-links ul {

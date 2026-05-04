@@ -72,26 +72,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- PRODUCT DATA ---
     const products = [
-        { id: 1, name: "Red Gel Volcano", category: "luxury", price: 249, img: "images/luxury_gel_candle.png" },
-        { id: 2, name: "Blue Gel Volcano", category: "luxury", price: 249, img: "images/luxury_gel_candle.png" },
-        { id: 3, name: "Peony Glass", category: "luxury", price: 249, img: "images/luxury_gel_candle.png" },
-        { id: 4, name: "Sunflower Glass", category: "luxury", price: 199, img: "images/luxury_gel_candle.png" },
-        { id: 5, name: "Rose Gel Jar", category: "jars", price: 299, img: "images/luxury_gel_candle.png" },
-        { id: 6, name: "Vanilla Rose Jar", category: "jars", price: 299, img: "images/luxury_gel_candle.png" },
-        { id: 7, name: "Hearts Vanilla Jar", category: "jars", price: 249, img: "images/luxury_gel_candle.png" },
-        { id: 8, name: "Berries Gel Jar", category: "jars", price: 299, img: "images/luxury_gel_candle.png" },
-        { id: 9, name: "Cheese Cube", category: "mould", price: 249, img: "images/mould_candle.png" },
-        { id: 10, name: "Lotus Glow", category: "mould", price: 99, img: "images/mould_candle.png" },
-        { id: 11, name: "Twist Pillar", category: "mould", price: 99, img: "images/mould_candle.png" },
-        { id: 12, name: "Rainbow Candle", category: "mould", price: 199, img: "images/mould_candle.png" },
-        { id: 13, name: "Beer Glass", category: "drinks", price: 449, img: "images/drinks_candle.png" },
-        { id: 14, name: "Cocktail Glass", category: "drinks", price: 249, img: "images/drinks_candle.png" },
-        { id: 15, name: "Mocktail Glass", category: "drinks", price: 299, img: "images/drinks_candle.png" },
-        { id: 16, name: "JD Candle", category: "drinks", price: 299, img: "images/drinks_candle.png" },
-        { id: 17, name: "Laddoo", category: "festive", price: 49, img: "images/diwali_sweets_candle.png" },
-        { id: 18, name: "Modak", category: "festive", price: 49, img: "images/diwali_sweets_candle.png" },
-        { id: 19, name: "Kaju Katli", category: "festive", price: 35, img: "images/diwali_sweets_candle.png" },
-        { id: 20, name: "Big Urli", category: "festive", price: 149, img: "images/diwali_sweets_candle.png" }
+        { id: 1, name: "Red Gel Volcano", category: "luxury", price: 249, img: "./images/luxury_gel_candle.png" },
+        { id: 2, name: "Blue Gel Volcano", category: "luxury", price: 249, img: "./images/luxury_gel_candle.png" },
+        { id: 3, name: "Peony Glass", category: "luxury", price: 249, img: "./images/luxury_gel_candle.png" },
+        { id: 4, name: "Sunflower Glass", category: "luxury", price: 199, img: "./images/luxury_gel_candle.png" },
+        { id: 5, name: "Rose Gel Jar", category: "jars", price: 299, img: "./images/luxury_gel_candle.png" },
+        { id: 6, name: "Vanilla Rose Jar", category: "jars", price: 299, img: "./images/luxury_gel_candle.png" },
+        { id: 7, name: "Hearts Vanilla Jar", category: "jars", price: 249, img: "./images/luxury_gel_candle.png" },
+        { id: 8, name: "Berries Gel Jar", category: "jars", price: 299, img: "./images/luxury_gel_candle.png" },
+        { id: 9, name: "Cheese Cube", category: "mould", price: 249, img: "./images/mould_candle.png" },
+        { id: 10, name: "Lotus Glow", category: "mould", price: 99, img: "./images/mould_candle.png" },
+        { id: 11, name: "Twist Pillar", category: "mould", price: 99, img: "./images/mould_candle.png" },
+        { id: 12, name: "Rainbow Candle", category: "mould", price: 199, img: "./images/mould_candle.png" },
+        { id: 13, name: "Beer Glass", category: "drinks", price: 449, img: "./images/drinks_candle.png" },
+        { id: 14, name: "Cocktail Glass", category: "drinks", price: 249, img: "./images/drinks_candle.png" },
+        { id: 15, name: "Mocktail Glass", category: "drinks", price: 299, img: "./images/drinks_candle.png" },
+        { id: 16, name: "JD Candle", category: "drinks", price: 299, img: "./images/drinks_candle.png" },
+        { id: 17, name: "Laddoo", category: "festive", price: 49, img: "./images/diwali_sweets_candle.png" },
+        { id: 18, name: "Modak", category: "festive", price: 49, img: "./images/diwali_sweets_candle.png" },
+        { id: 19, name: "Kaju Katli", category: "festive", price: 35, img: "./images/diwali_sweets_candle.png" },
+        { id: 20, name: "Big Urli", category: "festive", price: 149, img: "./images/diwali_sweets_candle.png" }
         // ... more can be added here
     ];
 
