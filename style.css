@@ -832,6 +832,20 @@ footer {
         font-size: 2.5rem;
     }
 
+    .hero-buttons {
+        flex-direction: column;
+        gap: 15px;
+        padding: 0 10px;
+    }
+
+    .hero-buttons a.btn-primary, 
+    .hero-buttons a.btn-outline {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 15px 30px;
+    }
+
     .filter-buttons {
         gap: 10px;
         margin-bottom: 30px;
