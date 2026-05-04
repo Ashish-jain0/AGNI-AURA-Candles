@@ -112,6 +112,16 @@ h2 {
     color: var(--bg-color);
 }
 
+.hero .btn-outline {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.hero .btn-outline:hover {
+    background-color: #ffffff;
+    color: var(--text-main);
+}
+
 /* Navigation */
 .navbar {
     position: fixed;
@@ -448,12 +458,13 @@ section {
     margin-bottom: 15px;
     font-size: 1.1rem;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 15px;
 }
 
 .custom-list i {
     color: var(--primary-color);
+    margin-top: 5px;
 }
 
 .options-box {
@@ -611,12 +622,21 @@ section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
+    margin-top: 15px;
+}
+
+.important-notes li {
+    display: flex;
+    align-items: flex-start;
 }
 
 .important-notes li::before {
     content: "•";
     color: var(--primary-color);
     margin-right: 10px;
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-top: -3px;
 }
 
 /* Footer */
@@ -811,6 +831,16 @@ footer {
     .hero h1 {
         font-size: 2.5rem;
     }
+
+    .filter-buttons {
+        gap: 10px;
+        margin-bottom: 30px;
+    }
+
+    .filter-btn {
+        padding: 8px 16px;
+        font-size: 0.8rem;
+    }
 }
 /* Full Catalogue Section */
 .full-catalogue {
@@ -827,8 +857,8 @@ footer {
 }
 
 .filter-btn {
-    background: transparent;
-    border: 1px solid var(--surface-light);
+    background: var(--surface-color);
+    border: 1px solid rgba(201, 152, 86, 0.3);
     color: var(--text-muted);
     padding: 10px 25px;
     border-radius: 30px;
