@@ -150,12 +150,12 @@ h2 {
     gap: 5px;
 }
 
-.logo-agni { color: #ffffff; transition: var(--transition); }
+.logo-agni { color: var(--text-main); transition: var(--transition); }
 .logo-amp { color: var(--primary-color); font-style: italic; transition: var(--transition); }
-.logo-aura { color: #ffffff; transition: var(--transition); }
+.logo-aura { color: var(--text-main); transition: var(--transition); }
 
-.navbar.scrolled .logo-agni,
-.navbar.scrolled .logo-aura { color: var(--text-main); }
+.navbar:not(.scrolled) .logo-agni,
+.navbar:not(.scrolled) .logo-aura { color: #ffffff; }
 
 .nav-links {
     display: flex;
@@ -674,10 +674,14 @@ footer {
 }
 
 .profile-role {
-    font-size: 0.95rem;
+    font-size: 0.85rem;
     color: var(--primary-color);
-    font-style: italic;
-    font-family: var(--font-heading);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: var(--font-body);
+    font-style: normal;
+    margin-top: 2px;
 }
 
 .footer-links ul {
@@ -793,6 +797,7 @@ footer {
     
     .nav-links a {
         font-size: 1.2rem;
+        color: var(--text-main) !important;
     }
     
     .important-notes ul {
